@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import  { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import { FaCheck } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
@@ -86,7 +86,7 @@ function ProductDetails() {
 
         {/* Rating */}
         <div className="flex gap-1 items-center">
-          {[1, 2, 3, 4, 5].map((e:any, i:number) => (
+          {[1, 2, 3, 4, 5].map((i:number) => (
             <FaStar key={i} size={20} className="text-amber-400" />
           ))}
           <h2>5/5</h2>
