@@ -38,7 +38,7 @@ function ProductDetails() {
         <div className="w-full h-[70%] bg-gray-700 ">
           <Slider
             asNavFor={nav2}
-            ref={(slider) => (sliderRef1.current = slider)}
+            ref={(slider:any) => (sliderRef1.current = slider)}
             className="w-full h-[70%] bg-gray-700 "
           >
             {images.map((img, i) => (
@@ -57,7 +57,7 @@ function ProductDetails() {
         <div className="w-full h-[20%] bg-gray-300  rounded-2xl ">
           <Slider
             asNavFor={nav1}
-            ref={(slider) => (sliderRef2.current = slider)}
+            ref={(slider:any) => (sliderRef2.current = slider)}
             slidesToShow={3}
             swipeToSlide
             focusOnSelect
@@ -86,7 +86,7 @@ function ProductDetails() {
 
         {/* Rating */}
         <div className="flex gap-1 items-center">
-          {[1, 2, 3, 4, 5].map((e, i) => (
+          {[1, 2, 3, 4, 5].map((e:any, i:number) => (
             <FaStar key={i} size={20} className="text-amber-400" />
           ))}
           <h2>5/5</h2>
