@@ -44,12 +44,12 @@ function CartCard() {
           <button className='flex w-full place-items-center justify-center text-xl rounded-l-3xl rounded-3xl
           active:bg-gray-200 active:
           '
-          onClick={(e)=>setqty((pre)=>pre+1)}
+          onClick={()=>setqty((pre)=>pre+1)}
           >+</button>
           <span className='flex w-full place-items-center justify-center text-xl'>{qty}</span>
           <button className='flex w-full place-items-center justify-center text-xl  rounded-r-3xl rounded-3xl
           active:bg-gray-200 active:'
-           onClick={(e)=>{
+           onClick={()=>{
             qty==1||setqty((pre)=>pre-1)
            }}
           >-</button>

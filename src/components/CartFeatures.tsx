@@ -8,7 +8,7 @@ function CartFeatures() {
     >
     <div className='w-full min-h-screen max-h-full space-y-2  xl:w-[60%] rounded-2xl p-2 '>
     
-        {[0,0,0,0,0,0,0].map((ele)=>(
+        {[0,0,0,0,0,0,0].map(()=>(
 <CartCard/>
         ))}
       
