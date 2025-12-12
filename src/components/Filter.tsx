@@ -1,4 +1,4 @@
-import React ,{useState}from 'react'
+import {useState}from 'react'
 import { RxCross2 } from "react-icons/rx";
 function Filter({filter,setfilter}:any) {
   const [open, setOpen] = useState("");

@@ -1,11 +1,11 @@
-import React, { useState ,useEffect} from 'react'
+import  { useState ,useEffect} from 'react'
 import { BiHeart } from 'react-icons/bi'
 import { FiTag } from "react-icons/fi";
 import { MdFilterAlt } from "react-icons/md";
 import { BsSortDown } from "react-icons/bs";
 import Filter from './Filter';
 import { useDispatch, } from 'react-redux';
-import type { RootState, AppDispatch } from "../store/store"
+import type { RootState,} from "../store/store"
 import { useSelector } from 'react-redux'
 import { toggleSortButton } from '../Features/ui/uiSlice';
 function Product() {
@@ -79,7 +79,7 @@ useEffect(() => {
       <li>
         <h3 className="font-semibold mb-1">Price</h3>
         <ul className="ml-4 space-y-1">
-          {Array(5).fill().map((_, i) => (
+          {Array(5).fill(0).map((_, i) => (
             <li key={i} className="flex items-center gap-2 cursor-pointer">
               <input type="radio" name="Price" />
               <span>₹500 - ₹900</span>
@@ -119,7 +119,7 @@ useEffect(() => {
      <div>
        <div className='grid grid-cols-2 gap-1.5 sm:grid-cols-3 md:grid-cols-4  xs-range:grid-cols-3  lg:grid-cols-4 '>
    {
-    dic.map((ele)=>(
+    dic.map(()=>(
        <div className='w-full max-w-[330px]    bg-white shadow-md shadow-slate-100  lg:h-[450px] grid grid-rows-6   border-2 border-stone-100 rounded-md'>
   <div className='w-full  row-span-4 rounded-t-md  overflow-hidden'>
     <img

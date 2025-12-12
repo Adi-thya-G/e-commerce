@@ -1,11 +1,11 @@
-import React from 'react'
+
 import { useState } from "react"
 import Navbar from '../components/Navbar'
 import Message from '../components/Message'
 import SideNavbar from '../components/SideNavbar'
 function Header() {
  const [isclose,setisclose]=useState(false)
- const [ismenu,setismenu]=useState(false)
+ 
 console.log(isclose)
   return (
     <>

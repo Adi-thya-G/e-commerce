@@ -1,9 +1,8 @@
-import React from 'react'
-import CartCard from '../components/CartCard'
-import { useNavigate } from 'react-router-dom'
+
+
 import CartFeatures from '../components/CartFeatures'
 function Cart() {
-  const navigate=useNavigate()
+
   return (
     <div className='w-full  min-h-[90vh]  max-h-full p-4 sm:p-6 md:px-8 xl:px-12 max-ms:mb-32 max-lg:mb-90 mb-16 space-y-8'>
       <h2 className='font-black text-2xl xl:text-3xl font-serif'>YOUR CART</h2>

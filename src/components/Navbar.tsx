@@ -52,7 +52,7 @@ function Navbar() {
       </div>
       <div className='flex  gap-2 lg:pr-6 lg:gap-4'>
         <button className='flex lg:hidden'><IoIosSearch size={20} className='font-black cursor-pointer '/></button>
-        <button onClick={(e)=>{
+        <button onClick={()=>{
       navigate("/cart")
         }}><FaShoppingCart size={20} className='font-black cursor-pointer'/></button>
         <button><CgProfile size={20} className='font-black cursor-pointer'/></button>

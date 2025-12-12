@@ -1,6 +1,6 @@
-import React from 'react'
+
 import Product from '../components/Products'
-import type { RootState, AppDispatch } from "../store/store"
+import type { RootState,  } from "../store/store"
 import { IoMdClose } from "react-icons/io";
 import { useSelector,useDispatch } from 'react-redux'
 import { toggleSortButton } from '../Features/ui/uiSlice';

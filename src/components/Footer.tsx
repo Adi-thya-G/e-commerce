@@ -1,4 +1,4 @@
-import React, { type JSX } from 'react'
+
 import { IoIosMail } from "react-icons/io";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FaCcVisa, FaCcMastercard, FaCcPaypal, FaCcAmex, FaCcDiscover, FaCcAmazonPay } from "react-icons/fa";

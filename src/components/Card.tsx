@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaStar } from "react-icons/fa";
 function Card() {
   return (
@@ -10,7 +10,7 @@ function Card() {
    <div className='p-1'>
     <h2 className='font-black'>T-shirt With Tape Details</h2>
     <div className='flex'>
-      {"00000".split("0").map((ele:any)=>(
+      {"00000".split("0").map(()=>(
         <FaStar className='text-amber-400 fill-amber-400"'/>
       ))}
     </div>
