@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme{
+  --breakpoint-ms:420px;
+  --color-cream:#f2f0f1;
+  --color-style-color:#f0f0f0;
+  --color-footer-bg:rgb(240 240 240 / var(--tw-bg-opacity, 1));
+  --color-increment-button:rgb(240 240 240/var(--tw-bg-opacity))
+}
+
+@keyframes dropdown {
+  0% {
+    top: 2px;
+    right: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  20% {
+    top: 2px;
+    right: 2px;
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+  }
+  50% {
+    top: 2px;
+    right: 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+  }
+  100% {
+    top: 2px;
+    right: 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+  }
+}
+.animate-dropdown {
+  animation: dropdown 2s ,ease;
+ 
+}
+.slick-arrow{
+  color:gray;
+}
+.swiper-button-prev{
+  color: red;
+  width: 300px;
+  height: 300px;
+  z-index:50;
+
+}
+
